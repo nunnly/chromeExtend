@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/chromeClock.iml" filepath="$PROJECT_DIR$/.idea/chromeClock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/chromeExtends.iml" filepath="$PROJECT_DIR$/.idea/chromeExtends.iml" />
     </modules>
   </component>
 </project>
