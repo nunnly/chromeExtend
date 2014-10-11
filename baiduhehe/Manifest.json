@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "永远点不到的百度按钮",
+    "version": "1.0",
+    "description": "让你永远也点不到百度一下",
+    "content_scripts":[
+        {
+            "matches":["*://www.baidu.com/"],
+            "js":["js/cannot_touch.js"]
+        }
+    ]
+}
