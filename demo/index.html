@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="cn">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css.css" />
+</head>
+<body>
+    <div id="edit">
+            <span class="orange">function</span> <span class="green">()</span> <span class="red">{}</span>
+    </div>
+    <script>
+        var edit = document.getElementById('edit');
+        edit.contentEditable = true;
+        edit.addEventListener('keypress', function(e){
+            console.dir(e);
+        })
+        edit.addEventListener('change',function(){
+            console.log("change");
+        })
+    </script>
+</body>
+</html>

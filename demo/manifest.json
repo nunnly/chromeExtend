@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "chrome内置方法测试",
+    "version": "0.1",
+    "permissions":["activeTab"],
+
+    "content_scripts":[{
+        "matches" : ["*://www.cnblogs.com/nunn/"],
+        "js":["js/js.js"]
+    }]
+
+}
